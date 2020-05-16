@@ -1,0 +1,20 @@
+{
+    "name": "fgc1101/upload-large-files",
+    "description": "PHP分段上传大文件",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fanguochao",
+            "email": "544942125@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "UploadLargeFiles\\" : "src/"
+        }
+    }
+}
